@@ -1,14 +1,14 @@
 # ------------------------------------------------------------------------------
-#          FILE:  kphoen.zsh-theme
-#   DESCRIPTION:  oh-my-zsh theme file.
-#        AUTHOR:  Kévin Gomez (geek63@gmail.com)
+#          FILE:  decarboxy.zsh-theme
+#   DESCRIPTION:  oh-my-zsh theme file. modified from kphoen
+#        AUTHOR:  Sam DeLuca (sam@decarboxy.com)
 #       VERSION:  1.0.0
 #    SCREENSHOT:
 # ------------------------------------------------------------------------------
 
 
 if [[ "$TERM" != "dumb" ]] && [[ "$DISABLE_LS_COLORS" != "true" ]]; then
-    PROMPT='[%{$fg[red]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$(git_prompt_info)]
+    PROMPT='[%{$fg[red]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$(git_prompt_info) %{$reset_color%}%{$fg[green]%}$(svn_get_rev_nr)%{$reset_color%} ]
 %# '
 
     ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[green]%}"
