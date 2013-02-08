@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 #          FILE:  decarboxy.zsh-theme
 #   DESCRIPTION:  oh-my-zsh theme file. modified from kphoen
-#        AUTHOR:  Sam DeLuca (sam@decarboxy.com)
+#        AUTHOR:  Sam DeLuca (sam@decarboxy.comw)
 #       VERSION:  1.0.0
 #    SCREENSHOT:
 # ------------------------------------------------------------------------------
